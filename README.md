@@ -25,10 +25,10 @@ PS C:\AzCopy> .\copytoazure.ps1
 Please authenticate using .\azcopy login to avoid permission error...
 Current Directory..
 C:\FMAG\TempAZ\Sombody.txt
-1-Discovery
-2-Envestnet
-3-JPM
-4-Broadridge
+1-datasource1
+2-datasource2
+3-datasource3
+4-datasource4
 Choose Datasource from Above...: 2
 Your Choice is Envestnet
 -------------------------------
@@ -42,3 +42,20 @@ Please Choose entity name...: 3
 Your Choice is 3-xxxxx/sma_1/ Folder!
 Target Location =
 https://wwwwwwwwwwwwww.blob.core.windows.net/wwwwwwww-zone/wwwwwww/www_wwww/?wwwwwwwwwwwwwwwwwwww
+Job e726bb1f-fdb0-bc4f-7f02-ea2670aa93f4 has started
+Log file is located at: C:\xxxxx\.azcopy\e726bb1f-fdb0-bc4f-7f02-ea2670aa93f4.log
+
+0.0 %, 0 Done, 0 Failed, 1 Pending, 0 Skipped, 1 Total,
+0.0 %, 0 Done, 0 Failed, 1 Pending, 0 Skipped, 1 Total,
+0.0 %, 0 Done, 0 Failed, 1 Pending, 0 Skipped, 1 Total,
+0.0 %, 0 Done, 0 Failed, 1 Pending, 0 Skipped, 1 Total,
+
+
+Job e726bb1f-fdb0-bc4f-7f02-ea2670aa93f4 summary
+Elapsed Time (Minutes): 2.1104
+Total Number Of Transfers: 1
+Number of Transfers Completed: 1
+Number of Transfers Failed: 0
+Number of Transfers Skipped: 0
+TotalBytesTransferred: 19
+Final Job Status: Completed
